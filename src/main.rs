@@ -3,6 +3,7 @@ mod print;
 mod vars;
 mod types;
 mod string;
+mod array;
 
 fn main() {
     println!("Hello, world!");
@@ -11,5 +12,5 @@ fn main() {
     types::types();
     string::string_fn();
     string::run();
-    
+    array::run();
 }
